@@ -1,10 +1,9 @@
 import os
 
-def setup():
-    print("Testing 1")
+list1 = [1,2,3,4,5]
+list1.reverse()
+print(list1)
 
-def method1(setup):
-    print("Testing 2")
-
-def method2(setup):
-    print("Testing 3")
+list2 = [10,6,8,7,9]
+list2.sort()
+print(list2)
