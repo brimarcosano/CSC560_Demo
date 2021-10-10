@@ -1,6 +1,5 @@
-import pytest
+import os
 
-@pytest.fixture()
 def setup():
     print("Testing 1")
 
